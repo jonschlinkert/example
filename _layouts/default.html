@@ -17,11 +17,14 @@
         </div>
       </div>
 
-      <div>
+      <div class="jumbotron">
         <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-s49-jir-1863-chim-01.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=b9f25b8f86b9f78b82bb022174d0765b" alt="My blog post">
       </div>
 
       <div class="container content">
+        POST URL: {{ post.url }}
+        PAGE URL: {{ page.url }}
+
         {{ content }}
       </div>
     </div>
